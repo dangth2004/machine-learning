@@ -20,6 +20,7 @@ plt.xlabel('SAT', fontsize=20)
 plt.ylabel('GPA', fontsize=20)
 plt.show()
 
+
 # Function to calculate the mean of data set
 def mean(data):
     sum = 0
