@@ -18,7 +18,7 @@ plt.xlabel('Temperature (F)')
 plt.ylabel('Pressure (Atm)')
 plt.show()
 
-
+# Function to calculate mean of the dataset
 def mean(x):
     sum = 0
     for i in range(len(x)):
@@ -42,17 +42,18 @@ def sxy(x, y):
         sum += (x[i] - x_mean) * (y[i] - y_mean)
     return sum
 
-
+# Coefficients of the linear regression model
 theta_1 = sxy(X, y) / sxx(X)
 theta_0 = mean(y) - theta_1 * mean(X)
+print(f'Theta_0: {theta_0}')
+print(f'Theta_1: {theta_1}')
 
 x0 = np.linspace(193, 213, 2)
 y0 = theta_0 + theta_1 * x0
 
 # Drawing the fitting line
 plt.plot(X.T, y.T, 'ro')
-plt.plot(x0, y0)
-# data
+plt.plot(x0, y0) # data
 # the fitting line
 plt.axis([193, 213, 19, 31])
 plt.xlabel('Temperature (F)')
