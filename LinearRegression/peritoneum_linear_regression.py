@@ -3,6 +3,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Read data
+# Change to data path on your computer
 with open('vidu4_lin_reg.txt') as f:
     lines = f.readlines()
 
