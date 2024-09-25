@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Add files">
+    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Edit peritoneum_linear_regression.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinearRegression/peritoneum_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression/peritoneum_linear_regression.py" afterDir="false" />
     </list>
@@ -46,34 +46,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.PredictGPA.executor": "Run",
-    "Python.fuel_knn.executor": "Run",
-    "Python.fuel_regression.executor": "Run",
-    "Python.gaussian_naive_bayes.executor": "Run",
-    "Python.multinomial_naive_bayes.executor": "Run",
-    "Python.naive_bayes.executor": "Run",
-    "Python.peritoneum_linear_regression.executor": "Run",
-    "Python.sat_gpa_knn.executor": "Run",
-    "Python.sat_gpa_predict.executor": "Run",
-    "Python.sat_gpa_regression.executor": "Run",
-    "Python.temp.executor": "Run",
-    "Python.tempature_pressure_knn.executor": "Run",
-    "Python.tempature_presure_knn.executor": "Run",
-    "Python.temperature_pressure_regression.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/dangth2004/Programming/machine-learning/LinearRegression",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.PredictGPA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fuel_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fuel_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gaussian_naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multinomial_naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.peritoneum_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempature_pressure_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempature_presure_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperature_pressure_regression.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dangth2004/Programming/machine-learning/LinearRegression&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/LinearRegression" />
@@ -114,7 +114,8 @@
       <workItem from="1727193227548" duration="911000" />
       <workItem from="1727194390128" duration="216000" />
       <workItem from="1727194638106" duration="78000" />
-      <workItem from="1727198240152" duration="3799000" />
+      <workItem from="1727198240152" duration="4147000" />
+      <workItem from="1727255250189" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="Add gaussian_naive_bayes.py and breast-cancer-wisconsin.data">
       <option name="closed" value="true" />
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727200249503</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Edit peritoneum_linear_regression.py">
+      <option name="closed" value="true" />
+      <created>1727203261193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727203261193</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,11 +190,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add gaussian_naive_bayes.py and breast-cancer-wisconsin.data" />
     <MESSAGE value="Add files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files" />
+    <MESSAGE value="Edit peritoneum_linear_regression.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit peritoneum_linear_regression.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machine_learning$gaussian_naive_bayes.coverage" NAME="gaussian_naive_bayes Coverage Results" MODIFIED="1726586602197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
-    <SUITE FILE_PATH="coverage/machine_learning$peritoneum_linear_regression.coverage" NAME="peritoneum_linear_regression Coverage Results" MODIFIED="1727202945073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$peritoneum_linear_regression.coverage" NAME="peritoneum_linear_regression Coverage Results" MODIFIED="1727255284298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$temperature_pressure_regression.coverage" NAME="temperature_pressure_regression Coverage Results" MODIFIED="1727189133373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$tempature_pressure_knn.coverage" NAME="tempature_pressure_knn Coverage Results" MODIFIED="1726713423852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_knn.coverage" NAME="sat_gpa_knn Coverage Results" MODIFIED="1727193640888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />

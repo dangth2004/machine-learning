@@ -41,7 +41,7 @@ regression.fit(x_train, y_train)
 # Print the coefficient of the linear regression predict function on the training set
 print('With the training set:')
 print(f'The coefficient is: {regression.coef_}')
-print(f'The intercept is: {regression.intercept_}')
+print(f'The intercept is: {regression.intercept_}\n')
 y_predict = regression.predict(x_test)
 
 # Calculate error term
@@ -53,5 +53,5 @@ mean_error = np.mean(errors)
 # Calculate variance of error term
 variance_error = np.var(errors, ddof=1)
 
-print(f'Kỳ vọng của sai số: {mean_error}')
-print(f'Phương sai của sai số: {variance_error}')
+print(f'Mean of error term: {mean_error}')
+print(f'Variance of error term: {variance_error}')
