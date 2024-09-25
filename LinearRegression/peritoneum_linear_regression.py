@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Read data
 with open('vidu4_lin_reg.txt') as f:
@@ -54,4 +54,13 @@ mean_error = np.mean(errors)
 variance_error = np.var(errors, ddof=1)
 
 print(f'Mean of error term: {mean_error}')
-print(f'Variance of error term: {variance_error}')
+print(f'Variance of error term: {variance_error}\n')
+
+# Calculate MAE, MSE, R-Squared
+mae = mean_absolute_error(y_test, y_predict)
+mse = mean_squared_error(y_test, y_predict)
+r2 = r2_score(y_test, y_predict)
+
+print(f'Mean Absolute Error (MAE): {mae}')
+print(f'Mean Squared Error (MSE): {mse}')
+print(f'R-Squared Error: {r2}')
