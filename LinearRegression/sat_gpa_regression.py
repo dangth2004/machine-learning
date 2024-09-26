@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
+# Read data
 # Change to data path on your computer
 data = pd.read_csv('SAT_GPA.csv')
 # Show the description of data
