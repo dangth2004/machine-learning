@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, recall_score, precision_score
 
 # Read data
 # Change to data path on your computer
-data = pd.read_csv('framingham.csv')
+data = pd.read_csv('chd_framingham.csv')
 # Remove row contain N/A in data set
 data.head()
 data.isnull().sum()
