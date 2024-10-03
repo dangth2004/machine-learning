@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Edit files">
-      <change afterPath="$PROJECT_DIR$/LogisticRegression/chd_logistic_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/TrinhHaiDang_BaiTap2_K-NN_LogisticRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/TrinhHaiDang_BaiTap2_K-NN_LogisticRegression_Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/admission_predict_logistic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisticRegression/banking_logistic_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LogisticRegression/admission_predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegression/chd_framingham.csv" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegression/framingham.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegression/chd_logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegression/chd_logistic_regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,40 +51,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.PredictGPA.executor&quot;: &quot;Run&quot;,
-    &quot;Python.admission_predict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chd_logistic_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.estate_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fuel_knn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fuel_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gaussian_naive_bayes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learning_hour_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.multinomial_naive_bayes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.naive_bayes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.peritoneum_linear_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.peritoneum_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.real_estate_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sat_gpa_knn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sat_gpa_predict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sat_gpa_regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tempature_pressure_knn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tempature_presure_knn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temperature_pressure_regression.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dangth2004/Programming/machine-learning/LinearRegression&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.PredictGPA.executor": "Run",
+    "Python.TrinhHaiDang_BaiTap1_K-NN_LogisticRegression.executor": "Run",
+    "Python.TrinhHaiDang_BaiTap3_K-NN_LogisticRegression.executor": "Run",
+    "Python.admission_predict.executor": "Run",
+    "Python.admission_predict_logistic.executor": "Run",
+    "Python.banking_logistic_regression.executor": "Run",
+    "Python.chd_logistic_regression.executor": "Run",
+    "Python.estate_regression.executor": "Run",
+    "Python.fuel_knn.executor": "Run",
+    "Python.fuel_regression.executor": "Run",
+    "Python.gaussian_naive_bayes.executor": "Run",
+    "Python.learning_hour_regression.executor": "Run",
+    "Python.multinomial_naive_bayes.executor": "Run",
+    "Python.naive_bayes.executor": "Run",
+    "Python.peritoneum_linear_regression.executor": "Run",
+    "Python.peritoneum_regression.executor": "Run",
+    "Python.real_estate_regression.executor": "Run",
+    "Python.sat_gpa_knn.executor": "Run",
+    "Python.sat_gpa_predict.executor": "Run",
+    "Python.sat_gpa_regression.executor": "Run",
+    "Python.temp.executor": "Run",
+    "Python.tempature_pressure_knn.executor": "Run",
+    "Python.tempature_presure_knn.executor": "Run",
+    "Python.temperature_pressure_regression.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/dangth2004/Programming/machine-learning/LinearRegression",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/LinearRegression" />
@@ -135,7 +143,11 @@
       <workItem from="1727771223008" duration="21000" />
       <workItem from="1727771842538" duration="21000" />
       <workItem from="1727771867236" duration="3608000" />
-      <workItem from="1727797334380" duration="2616000" />
+      <workItem from="1727797334380" duration="4057000" />
+      <workItem from="1727806889810" duration="2537000" />
+      <workItem from="1727859646831" duration="9692000" />
+      <workItem from="1727874565765" duration="6033000" />
+      <workItem from="1727883394070" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="Add gaussian_naive_bayes.py and breast-cancer-wisconsin.data">
       <option name="closed" value="true" />
@@ -257,7 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727772324148</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Edit files">
+      <option name="closed" value="true" />
+      <created>1727805481483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727805481483</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Edit files">
+      <option name="closed" value="true" />
+      <created>1727805578300</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727805578300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,25 +300,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="Edit files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/machine_learning$gaussian_naive_bayes.coverage" NAME="gaussian_naive_bayes Coverage Results" MODIFIED="1726586602197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
     <SUITE FILE_PATH="coverage/machine_learning$peritoneum_linear_regression.coverage" NAME="peritoneum_linear_regression Coverage Results" MODIFIED="1727263759202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
-    <SUITE FILE_PATH="coverage/machine_learning$temperature_pressure_regression.coverage" NAME="temperature_pressure_regression Coverage Results" MODIFIED="1727189133373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
-    <SUITE FILE_PATH="coverage/machine_learning$chd_logistic_regression.coverage" NAME="chd_logistic_regression Coverage Results" MODIFIED="1727805179705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_BaiTap3_K_NN_LogisticRegression.coverage" NAME="TrinhHaiDang_BaiTap3_K-NN_LogisticRegression Coverage Results" MODIFIED="1727877767895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_BaiTap1_K_NN_LogisticRegression.coverage" NAME="TrinhHaiDang_BaiTap1_K-NN_LogisticRegression Coverage Results" MODIFIED="1727884833496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$chd_logistic_regression.coverage" NAME="chd_logistic_regression Coverage Results" MODIFIED="1727867252376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$tempature_pressure_knn.coverage" NAME="tempature_pressure_knn Coverage Results" MODIFIED="1726713423852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_knn.coverage" NAME="sat_gpa_knn Coverage Results" MODIFIED="1727344711729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-NN-Regression" />
     <SUITE FILE_PATH="coverage/machine_learning$fuel_regression.coverage" NAME="fuel_regression Coverage Results" MODIFIED="1727772085803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$tempature_presure_knn.coverage" NAME="tempature_presure_knn Coverage Results" MODIFIED="1726712394252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
+    <SUITE FILE_PATH="coverage/machine_learning$banking_logistic_regression.coverage" NAME="banking_logistic_regression Coverage Results" MODIFIED="1727885429757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$fuel_knn.coverage" NAME="fuel_knn Coverage Results" MODIFIED="1727185609364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$learning_hour_regression.coverage" NAME="learning_hour_regression Coverage Results" MODIFIED="1727319520299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$PredictGPA.coverage" NAME="PredictGPA Coverage Results" MODIFIED="1727192888111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
-    <SUITE FILE_PATH="coverage/machine_learning$multinomial_naive_bayes.coverage" NAME="multinomial_naive_bayes Coverage Results" MODIFIED="1726330557448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
-    <SUITE FILE_PATH="coverage/machine_learning$admission_predict.coverage" NAME="admission_predict Coverage Results" MODIFIED="1727322542374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
-    <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_regression.coverage" NAME="sat_gpa_regression Coverage Results" MODIFIED="1727772271976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$admission_predict_logistic.coverage" NAME="admission_predict_logistic Coverage Results" MODIFIED="1727884687052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$admission_predict.coverage" NAME="admission_predict Coverage Results" MODIFIED="1727869669619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_regression.coverage" NAME="sat_gpa_regression Coverage Results" MODIFIED="1727870022597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_predict.coverage" NAME="sat_gpa_predict Coverage Results" MODIFIED="1726712023489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$real_estate_regression.coverage" NAME="real_estate_regression Coverage Results" MODIFIED="1727774806303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$peritoneum_regression.coverage" NAME="peritoneum_regression Coverage Results" MODIFIED="1727349416613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$temp.coverage" NAME="temp Coverage Results" MODIFIED="1727189102024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
-    <SUITE FILE_PATH="coverage/machine_learning$estate_regression.coverage" NAME="estate_regression Coverage Results" MODIFIED="1727349410579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1726501305019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
+    <SUITE FILE_PATH="coverage/machine_learning$gaussian_naive_bayes.coverage" NAME="gaussian_naive_bayes Coverage Results" MODIFIED="1726586602197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
+    <SUITE FILE_PATH="coverage/machine_learning$temperature_pressure_regression.coverage" NAME="temperature_pressure_regression Coverage Results" MODIFIED="1727189133373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$multinomial_naive_bayes.coverage" NAME="multinomial_naive_bayes Coverage Results" MODIFIED="1726330557448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
+    <SUITE FILE_PATH="coverage/machine_learning$estate_regression.coverage" NAME="estate_regression Coverage Results" MODIFIED="1727349410579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
   </component>
 </project>
