@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Edit files">
-      <change afterPath="$PROJECT_DIR$/PCA/TrinhHaiDang_22001561_PCA_10_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/TrinhHaiDang_22001561_PCA_10_10_Result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftMax/glass_classification_softmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftMax/iris_softmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftMax/irish_pca_softmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftMax/text_classification_softmax.py" afterDir="false" />
+    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Add glass.csv, pd_speech_features.csv, Edit cancer_predict_naive_bayes.py, glass_classification_softmax.py, iris_softmax.py, irish_pca_softmax.py, parkinson_pca.py, text_classification_softmax.py">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaiveBayesClassifiers/gaussian_naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayesClassifiers/cancer_predict_naive_bayes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,57 +46,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.PredictGPA.executor": "Run",
-    "Python.TrinhHaiDang_22001561_BaiTap1_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_22001561_BaiTap2_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_22001561_BaiTap4_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_22001561_PCA_10_10.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap1_K-NN_LogisticRegression.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap1_PCA.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap2_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap3_K-NN_LogisticRegression.executor": "Run",
-    "Python.admission_predict.executor": "Run",
-    "Python.admission_predict_logistic.executor": "Run",
-    "Python.banking_logistic_regression.executor": "Run",
-    "Python.chd_logistic_regression.executor": "Run",
-    "Python.estate_regression.executor": "Run",
-    "Python.fuel_knn.executor": "Run",
-    "Python.fuel_regression.executor": "Run",
-    "Python.gaussian_naive_bayes.executor": "Run",
-    "Python.glass_classification_softmax.executor": "Run",
-    "Python.glass_identification_softmax.executor": "Run",
-    "Python.iris_softmax.executor": "Run",
-    "Python.irish_pca_softmax.executor": "Run",
-    "Python.learning_hour_regression.executor": "Run",
-    "Python.multinomial_logistic_regression.executor": "Run",
-    "Python.multinomial_naive_bayes.executor": "Run",
-    "Python.naive_bayes.executor": "Run",
-    "Python.parkinson_pca.executor": "Run",
-    "Python.peritoneum_linear_regression.executor": "Run",
-    "Python.peritoneum_regression.executor": "Run",
-    "Python.real_estate_regression.executor": "Run",
-    "Python.sat_gpa_knn.executor": "Run",
-    "Python.sat_gpa_predict.executor": "Run",
-    "Python.sat_gpa_regression.executor": "Run",
-    "Python.temp.executor": "Run",
-    "Python.tempature_pressure_knn.executor": "Run",
-    "Python.tempature_presure_knn.executor": "Run",
-    "Python.temperature_pressure_regression.executor": "Run",
-    "Python.text_classification_softmax.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/dangth2004/Programming/machine-learning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.PredictGPA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_BaiTap1_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_BaiTap2_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_BaiTap4_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_PCA_10_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap1_K-NN_LogisticRegression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap1_PCA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap2_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap3_K-NN_LogisticRegression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.admission_predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.admission_predict_logistic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.banking_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chd_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.estate_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fuel_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fuel_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gaussian_naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glass_classification_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glass_identification_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iris_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.irish_pca_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning_hour_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multinomial_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multinomial_naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parkinson_pca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.peritoneum_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.peritoneum_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.real_estate_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempature_pressure_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempature_presure_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperature_pressure_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_classification_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dangth2004/Programming/machine-learning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/LinearRegression" />
@@ -174,7 +168,10 @@
       <workItem from="1728550854768" duration="58000" />
       <workItem from="1728551220971" duration="1128000" />
       <workItem from="1728552397111" duration="266000" />
-      <workItem from="1728568656750" duration="5688000" />
+      <workItem from="1728568656750" duration="6150000" />
+      <workItem from="1728586722788" duration="11000" />
+      <workItem from="1728706183679" duration="645000" />
+      <workItem from="1728886549565" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="Add gaussian_naive_bayes.py and breast-cancer-wisconsin.data">
       <option name="closed" value="true" />
@@ -320,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727918241237</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add glass.csv, pd_speech_features.csv, Edit cancer_predict_naive_bayes.py, glass_classification_softmax.py, iris_softmax.py, irish_pca_softmax.py, parkinson_pca.py, text_classification_softmax.py">
+      <option name="closed" value="true" />
+      <created>1728574546993</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574546993</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +337,8 @@
     <MESSAGE value="Edit peritoneum_linear_regression.py" />
     <MESSAGE value="Edit fuel_regression.py, add real_estate.csv" />
     <MESSAGE value="Edit files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit files" />
+    <MESSAGE value="Add glass.csv, pd_speech_features.csv, Edit cancer_predict_naive_bayes.py, glass_classification_softmax.py, iris_softmax.py, irish_pca_softmax.py, parkinson_pca.py, text_classification_softmax.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add glass.csv, pd_speech_features.csv, Edit cancer_predict_naive_bayes.py, glass_classification_softmax.py, iris_softmax.py, irish_pca_softmax.py, parkinson_pca.py, text_classification_softmax.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_BaiTap3_K_NN_LogisticRegression.coverage" NAME="TrinhHaiDang_BaiTap3_K-NN_LogisticRegression Coverage Results" MODIFIED="1727877767895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
@@ -343,8 +349,8 @@
     <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_BaiTap2_K_NN_Softmax.coverage" NAME="TrinhHaiDang_BaiTap2_K-NN_Softmax Coverage Results" MODIFIED="1728498627221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
     <SUITE FILE_PATH="coverage/machine_learning$tempature_pressure_knn.coverage" NAME="tempature_pressure_knn Coverage Results" MODIFIED="1726713423852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_knn.coverage" NAME="sat_gpa_knn Coverage Results" MODIFIED="1727344711729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-NN-Regression" />
-    <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_22001561_PCA_10_10.coverage" NAME="TrinhHaiDang_22001561_PCA_10_10 Coverage Results" MODIFIED="1728551598672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_22001561_BaiTap2_K_NN_Softmax.coverage" NAME="TrinhHaiDang_22001561_BaiTap2_K-NN_Softmax Coverage Results" MODIFIED="1728568831080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
+    <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_22001561_PCA_10_10.coverage" NAME="TrinhHaiDang_22001561_PCA_10_10 Coverage Results" MODIFIED="1728574378265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/machine_learning$fuel_regression.coverage" NAME="fuel_regression Coverage Results" MODIFIED="1727772085803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$tempature_presure_knn.coverage" NAME="tempature_presure_knn Coverage Results" MODIFIED="1726712394252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$banking_logistic_regression.coverage" NAME="banking_logistic_regression Coverage Results" MODIFIED="1727885429757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />

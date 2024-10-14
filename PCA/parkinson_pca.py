@@ -34,7 +34,7 @@ plt.show()
 
 
 # Naive Bayes Classifier approach
-def naive_bayes_appoach(x_train, x_test, y_train, y_test):
+def naive_bayes_approach(x_train, x_test, y_train, y_test):
     naive_bayes = GaussianNB()
     naive_bayes.fit(x_train, y_train)
     y_predict = naive_bayes.predict(x_test)
@@ -113,7 +113,7 @@ x_train, x_test, y_train, y_test = train_test_split(x_data, y_data,
 print('Original data')
 # Compute and print the accuracy of Naive Bayes Classifier approach
 print(f'The accuracy score (Naive Bayes approach): '
-      f'{naive_bayes_appoach(x_train, x_test, y_train, y_test)}')
+      f'{naive_bayes_approach(x_train, x_test, y_train, y_test)}')
 # Compute and print the accuracy of Logistic Regression approach
 print(f'The accuracy score (Logistic Regression): '
       f'{log_reg_approach(x_train, x_test, y_train, y_test)}\n')
@@ -128,7 +128,7 @@ x_train1, x_test1, y_train1, y_test1 = train_test_split(x_data1, y_data,
                                                     train_size=0.66, random_state=1)
 # Compute and print the accuracy of Naive Bayes Classifier approach
 print(f'The accuracy score (Naive Bayes approach): '
-      f'{naive_bayes_appoach(x_train1, x_test1, y_train1, y_test1)}')
+      f'{naive_bayes_approach(x_train1, x_test1, y_train1, y_test1)}')
 # Compute and print the accuracy of Logistic Regression approach
 print(f'The accuracy score (Logistic Regression): '
       f'{log_reg_approach(x_train1, x_test1, y_train1, y_test1)}\n')
