@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Edit peritoneum_pca.py">
-      <change afterPath="$PROJECT_DIR$/NaiveBayesClassifiers/cancer_predict_naive_bayes.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/number_handwritting_pca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Perceptron/chd_perceptron.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Perceptron/chd_perceptron.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Perceptron/framingham.csv" afterDir="false" />
+    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Add file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/peritoneum_pca.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +185,7 @@
       <workItem from="1729103578396" duration="66000" />
       <workItem from="1729103822283" duration="1894000" />
       <workItem from="1729129529284" duration="8791000" />
-      <workItem from="1729145180192" duration="2110000" />
+      <workItem from="1729145180192" duration="7133000" />
     </task>
     <task id="LOCAL-00001" summary="Add gaussian_naive_bayes.py and breast-cancer-wisconsin.data">
       <option name="closed" value="true" />
@@ -361,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729102781857</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add file">
+      <option name="closed" value="true" />
+      <created>1729150375302</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729150375302</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +378,8 @@
     <MESSAGE value="Add glass.csv, pd_speech_features.csv, Edit cancer_predict_naive_bayes.py, glass_classification_softmax.py, iris_softmax.py, irish_pca_softmax.py, parkinson_pca.py, text_classification_softmax.py" />
     <MESSAGE value="Edit parkinson_pca.py" />
     <MESSAGE value="Edit peritoneum_pca.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit peritoneum_pca.py" />
+    <MESSAGE value="Add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_BaiTap3_K_NN_LogisticRegression.coverage" NAME="TrinhHaiDang_BaiTap3_K-NN_LogisticRegression Coverage Results" MODIFIED="1727877767895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
@@ -403,7 +406,7 @@
     <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_predict.coverage" NAME="sat_gpa_predict Coverage Results" MODIFIED="1726712023489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$real_estate_regression.coverage" NAME="real_estate_regression Coverage Results" MODIFIED="1727774806303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$peritoneum_regression.coverage" NAME="peritoneum_regression Coverage Results" MODIFIED="1729013676410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
-    <SUITE FILE_PATH="coverage/machine_learning$number_handwritting_pca.coverage" NAME="number_handwritting_pca Coverage Results" MODIFIED="1729130353405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/machine_learning$number_handwritting_pca.coverage" NAME="number_handwritting_pca Coverage Results" MODIFIED="1729152245287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_22001561_BaiTap1_K_NN_Softmax.coverage" NAME="TrinhHaiDang_22001561_BaiTap1_K-NN_Softmax Coverage Results" MODIFIED="1728574007016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
     <SUITE FILE_PATH="coverage/machine_learning$temp.coverage" NAME="temp Coverage Results" MODIFIED="1727189102024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1726501305019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
