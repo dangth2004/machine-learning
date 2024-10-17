@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Edit parkinson_pca.py">
-      <change afterPath="$PROJECT_DIR$/PCA/peritoneum.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/peritoneum_pca.py" afterDir="false" />
+    <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Edit peritoneum_pca.py">
+      <change afterPath="$PROJECT_DIR$/NaiveBayesClassifiers/cancer_predict_naive_bayes.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/number_handwritting_pca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Perceptron/chd_perceptron.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Perceptron/chd_perceptron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Perceptron/framingham.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/peritoneum_pca.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -52,6 +57,7 @@
     "Python.PredictGPA.executor": "Run",
     "Python.TrinhHaiDang_22001561_BaiTap1_K-NN_Softmax.executor": "Run",
     "Python.TrinhHaiDang_22001561_BaiTap2_K-NN_Softmax.executor": "Run",
+    "Python.TrinhHaiDang_22001561_BaiTap2_PCA.executor": "Run",
     "Python.TrinhHaiDang_22001561_BaiTap4_K-NN_Softmax.executor": "Run",
     "Python.TrinhHaiDang_22001561_PCA_10_10.executor": "Run",
     "Python.TrinhHaiDang_BaiTap1_K-NN_LogisticRegression.executor": "Run",
@@ -62,6 +68,7 @@
     "Python.admission_predict_logistic.executor": "Run",
     "Python.banking_logistic_regression.executor": "Run",
     "Python.chd_logistic_regression.executor": "Run",
+    "Python.chd_perceptron.executor": "Run",
     "Python.estate_regression.executor": "Run",
     "Python.fuel_knn.executor": "Run",
     "Python.fuel_regression.executor": "Run",
@@ -74,6 +81,7 @@
     "Python.multinomial_logistic_regression.executor": "Run",
     "Python.multinomial_naive_bayes.executor": "Run",
     "Python.naive_bayes.executor": "Run",
+    "Python.number_handwritting_pca.executor": "Run",
     "Python.parkinson_pca.executor": "Run",
     "Python.peritoneum_linear_regression.executor": "Run",
     "Python.peritoneum_pca.executor": "Run",
@@ -101,6 +109,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Perceptron" />
       <recent name="$PROJECT_DIR$/PCA" />
       <recent name="$PROJECT_DIR$/LinearRegression" />
     </key>
@@ -177,6 +186,12 @@
       <workItem from="1728886549565" duration="27000" />
       <workItem from="1728886599574" duration="190000" />
       <workItem from="1729011073150" duration="3256000" />
+      <workItem from="1729102738259" duration="658000" />
+      <workItem from="1729103435244" duration="10000" />
+      <workItem from="1729103578396" duration="66000" />
+      <workItem from="1729103822283" duration="1894000" />
+      <workItem from="1729129529284" duration="8791000" />
+      <workItem from="1729145180192" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="Add gaussian_naive_bayes.py and breast-cancer-wisconsin.data">
       <option name="closed" value="true" />
@@ -338,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728886779880</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Edit peritoneum_pca.py">
+      <option name="closed" value="true" />
+      <created>1729102781857</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1729102781857</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +375,8 @@
     <MESSAGE value="Edit files" />
     <MESSAGE value="Add glass.csv, pd_speech_features.csv, Edit cancer_predict_naive_bayes.py, glass_classification_softmax.py, iris_softmax.py, irish_pca_softmax.py, parkinson_pca.py, text_classification_softmax.py" />
     <MESSAGE value="Edit parkinson_pca.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit parkinson_pca.py" />
+    <MESSAGE value="Edit peritoneum_pca.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit peritoneum_pca.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_BaiTap3_K_NN_LogisticRegression.coverage" NAME="TrinhHaiDang_BaiTap3_K-NN_LogisticRegression Coverage Results" MODIFIED="1727877767895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
@@ -372,20 +396,23 @@
     <SUITE FILE_PATH="coverage/machine_learning$text_classification_softmax.coverage" NAME="text_classification_softmax Coverage Results" MODIFIED="1728574332008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
     <SUITE FILE_PATH="coverage/machine_learning$learning_hour_regression.coverage" NAME="learning_hour_regression Coverage Results" MODIFIED="1727319520299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$PredictGPA.coverage" NAME="PredictGPA Coverage Results" MODIFIED="1727192888111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$chd_perceptron.coverage" NAME="chd_perceptron Coverage Results" MODIFIED="1729136188218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Perceptron" />
     <SUITE FILE_PATH="coverage/machine_learning$admission_predict_logistic.coverage" NAME="admission_predict_logistic Coverage Results" MODIFIED="1727884687052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$admission_predict.coverage" NAME="admission_predict Coverage Results" MODIFIED="1727869669619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LogisticRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_regression.coverage" NAME="sat_gpa_regression Coverage Results" MODIFIED="1729013710183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$sat_gpa_predict.coverage" NAME="sat_gpa_predict Coverage Results" MODIFIED="1726712023489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K_NearestNeighbors" />
     <SUITE FILE_PATH="coverage/machine_learning$real_estate_regression.coverage" NAME="real_estate_regression Coverage Results" MODIFIED="1727774806303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$peritoneum_regression.coverage" NAME="peritoneum_regression Coverage Results" MODIFIED="1729013676410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/machine_learning$number_handwritting_pca.coverage" NAME="number_handwritting_pca Coverage Results" MODIFIED="1729130353405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_22001561_BaiTap1_K_NN_Softmax.coverage" NAME="TrinhHaiDang_22001561_BaiTap1_K-NN_Softmax Coverage Results" MODIFIED="1728574007016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
     <SUITE FILE_PATH="coverage/machine_learning$temp.coverage" NAME="temp Coverage Results" MODIFIED="1727189102024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1726501305019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
     <SUITE FILE_PATH="coverage/machine_learning$parkinson_pca.coverage" NAME="parkinson_pca Coverage Results" MODIFIED="1729012820911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/machine_learning$peritoneum_pca.coverage" NAME="peritoneum_pca Coverage Results" MODIFIED="1729014478829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/machine_learning$peritoneum_pca.coverage" NAME="peritoneum_pca Coverage Results" MODIFIED="1729102739325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/machine_learning$gaussian_naive_bayes.coverage" NAME="gaussian_naive_bayes Coverage Results" MODIFIED="1728497844629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
     <SUITE FILE_PATH="coverage/machine_learning$temperature_pressure_regression.coverage" NAME="temperature_pressure_regression Coverage Results" MODIFIED="1727189133373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/machine_learning$glass_identification_softmax.coverage" NAME="glass_identification_softmax Coverage Results" MODIFIED="1728480491004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
+    <SUITE FILE_PATH="coverage/machine_learning$TrinhHaiDang_22001561_BaiTap2_PCA.coverage" NAME="TrinhHaiDang_22001561_BaiTap2_PCA Coverage Results" MODIFIED="1729103583323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/machine_learning$irish_pca_softmax.coverage" NAME="irish_pca_softmax Coverage Results" MODIFIED="1728573853938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
     <SUITE FILE_PATH="coverage/machine_learning$multinomial_naive_bayes.coverage" NAME="multinomial_naive_bayes Coverage Results" MODIFIED="1726330557448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NaiveBayesClassifiers" />
     <SUITE FILE_PATH="coverage/machine_learning$multinomial_logistic_regression.coverage" NAME="multinomial_logistic_regression Coverage Results" MODIFIED="1727923559799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftMax" />
