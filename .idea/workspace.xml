@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32c0fff7-0a82-4d16-8de9-fddc2d86fade" name="Changes" comment="Edit file">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Perceptron/portfolio_perceptron.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Perceptron/portfolio_perceptron.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +32,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dangth2004/machine-learning.git&quot;,
-    &quot;accountId&quot;: &quot;99f60792-e9bf-4470-a548-f32adcf1d56c&quot;
+    &quot;url&quot;: &quot;https://github.com/dangth2004/machine-learning&quot;,
+    &quot;accountId&quot;: &quot;b93b9892-1458-415c-9f10-4c8e0da773ca&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -47,62 +47,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.PredictGPA.executor": "Run",
-    "Python.TrinhHaiDang_22001561_BaiTap1_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_22001561_BaiTap2_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_22001561_BaiTap2_PCA.executor": "Run",
-    "Python.TrinhHaiDang_22001561_BaiTap4_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_22001561_PCA_10_10.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap1_K-NN_LogisticRegression.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap1_PCA.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap2_K-NN_Softmax.executor": "Run",
-    "Python.TrinhHaiDang_BaiTap3_K-NN_LogisticRegression.executor": "Run",
-    "Python.admission_predict.executor": "Run",
-    "Python.admission_predict_logistic.executor": "Run",
-    "Python.banking_logistic_regression.executor": "Run",
-    "Python.chd_logistic_regression.executor": "Run",
-    "Python.chd_perceptron.executor": "Run",
-    "Python.estate_regression.executor": "Run",
-    "Python.fuel_knn.executor": "Run",
-    "Python.fuel_regression.executor": "Run",
-    "Python.gaussian_naive_bayes.executor": "Run",
-    "Python.glass_classification_softmax.executor": "Run",
-    "Python.glass_identification_softmax.executor": "Run",
-    "Python.iris_softmax.executor": "Run",
-    "Python.irish_pca_softmax.executor": "Run",
-    "Python.learning_hour_regression.executor": "Run",
-    "Python.multinomial_logistic_regression.executor": "Run",
-    "Python.multinomial_naive_bayes.executor": "Run",
-    "Python.naive_bayes.executor": "Run",
-    "Python.number_handwritting_pca.executor": "Run",
-    "Python.parkinson_pca.executor": "Run",
-    "Python.peritoneum_linear_regression.executor": "Run",
-    "Python.peritoneum_pca.executor": "Run",
-    "Python.peritoneum_regression.executor": "Run",
-    "Python.real_estate_regression.executor": "Run",
-    "Python.sat_gpa_knn.executor": "Run",
-    "Python.sat_gpa_predict.executor": "Run",
-    "Python.sat_gpa_regression.executor": "Run",
-    "Python.sonar_perceptron.executor": "Run",
-    "Python.temp.executor": "Run",
-    "Python.tempature_pressure_knn.executor": "Run",
-    "Python.tempature_presure_knn.executor": "Run",
-    "Python.temperature_pressure_regression.executor": "Run",
-    "Python.text_classification_softmax.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/dangth2004/Programming/machine-learning/Perceptron",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.PredictGPA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_BaiTap1_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_BaiTap2_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_BaiTap2_PCA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_BaiTap4_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_22001561_PCA_10_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap1_K-NN_LogisticRegression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap1_PCA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap2_K-NN_Softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrinhHaiDang_BaiTap3_K-NN_LogisticRegression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.admission_predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.admission_predict_logistic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.banking_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chd_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chd_perceptron.executor&quot;: &quot;Run&quot;,
+    &quot;Python.estate_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fuel_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fuel_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gaussian_naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glass_classification_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glass_identification_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iris_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.irish_pca_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning_hour_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multinomial_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multinomial_naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive_bayes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.number_handwritting_pca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parkinson_pca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.peritoneum_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.peritoneum_pca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.peritoneum_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.real_estate_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sat_gpa_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sonar_perceptron.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempature_pressure_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempature_presure_knn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperature_pressure_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_classification_softmax.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dangth2004/Programming/machine-learning/Perceptron&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Perceptron" />
@@ -204,7 +204,10 @@
       <workItem from="1729602945236" duration="1836000" />
       <workItem from="1729604940040" duration="3246000" />
       <workItem from="1729670642281" duration="150000" />
-      <workItem from="1729672002972" duration="101000" />
+      <workItem from="1729672002972" duration="192000" />
+      <workItem from="1729677922716" duration="501000" />
+      <workItem from="1729690791858" duration="3726000" />
+      <workItem from="1729697604945" duration="1025000" />
     </task>
     <task id="LOCAL-00001" summary="Add gaussian_naive_bayes.py and breast-cancer-wisconsin.data">
       <option name="closed" value="true" />
@@ -406,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729159227187</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Edit file">
+      <option name="closed" value="true" />
+      <created>1729672175682</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1729672175682</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
